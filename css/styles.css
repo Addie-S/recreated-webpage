@@ -1,0 +1,70 @@
+body {
+  font-size: 12px;
+}
+
+
+
+.nav-pills{
+  float: right;
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: text;
+  background-color: transparent;
+}
+
+img {
+  height: 165px;
+  width: 165px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.left-menu {
+  margin: 25px;
+  padding 4px;
+  width: 15%;
+
+}
+
+th{
+  margin-bottom: 150px;
+}
+
+h5 {
+  margin-top: 0px;
+  border-bottom: 2px solid #ddd;
+}
+
+.list-group {
+  float: left;
+}
+
+.list-group-item {
+  padding: 3px;
+}
+
+li.borderless {
+  border: 0 none;
+}
+
+li.divider {
+  border-top: 0 none;
+  border-left: 0 none;
+  border-right: 0 none;
+  border-bottom: 1px solid #ddd
+}
+
+.info {
+  float: right;
+  margin: 75%;
+}
+
+.nav-tabs {
+  margin-top: 50px;
+}
